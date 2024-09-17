@@ -1,0 +1,6 @@
+When including file path, make sure no wrong blank spaces are in the path. Also, make sure all path places names start with capital Letters, otherwise it gives an error for some reason e.g.:"D:\Drone\Image_Dataset\Train\XX1.jpg"
+Use Roboflow to make yaml file, test and valid folder
+One of the links of YOLO will explain all
+Remember to use '\\' instead of '\' in the yaml file
+When saving torch model using: torch.save(model.state_dict(), "D:\Drone\Model1.pth")
+Remember to add .pth at the end of the path
